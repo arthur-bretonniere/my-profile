@@ -1,0 +1,132 @@
+body {
+	background-color: #F9F4F4;
+	color: rgb(191, 95, 95);
+	font-family: 'Lora', serif;
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+h1, h2, p {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	color: rgb(140, 0, 0);
+	word-spacing: 3px
+	letter-spacing: 10px;
+	font-size: 40px;
+	font-weight: 900;
+}
+
+h2{
+	font-weight: 500;
+}
+
+p{
+	color: #4D4646;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(140, 0, 0);
+}
+a:hover {
+	font-weight: bolder;
+	text-decoration: underline;
+	font-size: 17px;
+}
+
+#banner {
+	background: white;
+	padding: 50px;
+	margin: 5px;
+	box-shadow: 0px 00px 40px rgba(0,0,0,0.6);
+	border-radius: 4px;
+}
+
+#pp {
+	margin: 10px 470px;
+	border-radius: 50%;
+}
+
+#description {
+	width: 1000px;
+	margin: 10px 150px;
+}
+
+#link {
+	margin: 0px 520px;
+}
+#Fashion {
+	margin: 0px 485px;
+}
+#Marketing {
+	margin: 0px 470px;
+}
+#Music {
+	margin: 0px 490px;
+}
+.text-center {
+	text-align: center;
+}
+#facebook {
+	text-align: left;
+}
+#twitter {
+	text-align: right;
+}
+#instagram {
+	text-align: center;
+}
+.card-white {
+	background: rgb(297,297,297);
+	padding: 30px;
+	margin: 30px 0px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 4px;
+}
+.container {
+	width: 1200px;
+	margin: 10px auto;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	display: inline;
+	padding: 0px 170px;
+}
+
+@media (max-width: 1000px) {
+		.container {
+		width: 800px;
+	}
+	#pp {
+		margin: 0px 270px;
+	}
+	#description {
+		text-align: center;
+		width: 600px;
+		margin: 5px 50px;
+	}
+	#link {
+		margin: 0px 320px;
+	}
+}
+
+@media (max-width: 800px) {
+	.container {
+		width: 500px;
+	}
+	#pp {
+		margin: 0px 135px;
+	}
+	#description {
+		text-align: center;
+		width: 400px;
+		margin: 5px 0px;
+	}
+	#link {
+		margin: 0px 180px;
+	}
+}
